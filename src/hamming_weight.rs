@@ -1,5 +1,5 @@
 impl Solution {
-  pub fn hammingWeight (n: u32) -> i32 {
+  pub fn hamming_weight (n: u32) -> i32 {
     let mut count = 0;  
     let mut number = 0;
     for i in 0..32 {
